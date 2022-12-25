@@ -1,0 +1,172 @@
+body {
+    color: seashell;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    background-color: black;
+    text-align: center;
+    
+}
+
+/* Navigation */
+a {
+    text-decoration: underline;
+    color: seashell;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+nav {
+    height: 69px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+.logo {
+    height: 50px;
+    position: relative;
+    left: 10px
+}
+
+.menu {
+    display: inline-flex;
+    flex-wrap: wrap;
+    position: relative;
+    right: 10px;
+}
+
+.menu a {
+    margin: 0 10px;
+}
+
+/* Mission */
+#mission {
+    margin-top: 69px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+    background-image: url(../images/img-mission-background.jpeg);
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    background-color: black;
+    height: auto;
+    width: 1200px;
+}
+
+.banner h2 {
+    line-height: 0.8;
+}
+
+.banner h4 {
+    line-height: 0.8;
+}
+
+/* Tea of the Month */
+#featured {
+    width: 1000px;
+    margin: 100px auto;
+}
+
+.tea-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.tea {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.tea img{
+    height: 200px;
+    width: 300px;
+}
+
+.tea-name {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Locations */
+#locations {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.locations-image {
+    background-image: url(../images/img-locations-background.jpeg);
+    height: 580px;
+    width: 1200px;
+    display: inline-flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.locations-image h2 {
+    position: relative;
+    bottom: 60px;
+}
+
+.card-container {
+    position: relative;
+    bottom: 70px;
+    width: 1000px;
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: black;
+    width: 300px;
+    margin: 0 20px;
+    display: inline-flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Contact */
+
+.contact {
+    background-color: black;
+    height: 200px;
+}
+
+.contact h2 {
+    position: relative;
+    bottom: 15px;
+}
+
+/* Footer */
+footer {
+    padding-left: 20px;
+    text-align: left;
+}
